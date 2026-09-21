@@ -24,6 +24,8 @@ const links = [
   { label: "Agente de Copy", url: "https://chatgpt.com/g/g-69493864eb3c8191accb8192cf4f7573-adcopy" },
   { label: "Transformador WebP", url: "https://squoosh.app/" },
   { label: "Biblioteca ADS", url: "https://business.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&sort_data[mode]=total_impressions&sort_data[direction]=desc" },
+  { label: "GitHub", url: "https://github.com/" },
+  { label: "Vercel", url: "https://vercel.com/" },
   { label: "Stoat", url: "https://stt.gg/JRT7nwgn" },
 ];
 
