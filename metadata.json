@@ -1,0 +1,6 @@
+{
+  "name": "The Marketing Triad Link Hub",
+  "description": "A clean, Linktree-style hub for The Marketing Triad services and links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
