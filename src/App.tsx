@@ -4,8 +4,8 @@
  */
 
 import { motion } from "motion/react";
-import { ArrowRight } from "lucide-react";
-import React from "react";
+import { ArrowRight, Search } from "lucide-react";
+import React, { useState } from "react";
 
 const links = [
   { label: "UTMify", url: "https://app.utmify.com.br/dashboards/69e43570a62db66aa662c8e8/resumo/" },
@@ -31,6 +31,11 @@ const links = [
 ];
 
 export default function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const filteredLinks = links.filter(link => 
+    link.label.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div id="marketing-triad-hub" className="min-h-screen bg-[#621114] text-white flex flex-col items-center justify-center p-6 relative overflow-hidden">
       {/* Background Effect */}
@@ -62,7 +67,18 @@ export default function App() {
       </motion.div>
 
       <div id="links-container" className="z-10 w-full max-w-md space-y-4">
-        {links.map((link, index) => {
+        <div className="relative mb-6">
+          <input
+            type="text"
+            placeholder="Buscar serviços..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full p-4 pl-12 bg-[#0a0a0a] border border-[#ef4444] rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#ef4444] transition-all"
+          />
+          <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-[#ef4444]" />
+        </div>
+
+        {filteredLinks.map((link, index) => {
           return (
             <motion.a
               id={`link-card-${index}`}
