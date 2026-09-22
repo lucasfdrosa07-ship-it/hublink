@@ -11,6 +11,7 @@ const links = [
   { label: "UTMify", url: "https://app.utmify.com.br/dashboards/69e43570a62db66aa662c8e8/resumo/" },
   { label: "AdSparo", url: "https://adsparo.com/overview/login.php" },
   { label: "imgBB", url: "https://imgbb.com/" },
+  { label: "Inlead Quiz", url: "https://inlead.digital/dashboard/" },
   { label: "Google Flow", url: "https://labs.google/fx/pt/tools/flow" },
   { label: "Google AI Studio", url: "https://aistudio.google.com/" },
   { label: "Removedor de objetos", url: "https://cleanup.pictures/" },
