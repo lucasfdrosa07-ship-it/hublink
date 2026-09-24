@@ -29,6 +29,7 @@ const links = [
   { label: "Biblioteca ADS", url: "https://business.facebook.com/ads/library/?active_status=all&ad_type=all&country=ALL&is_targeted_country=false&media_type=all&sort_data[mode]=total_impressions&sort_data[direction]=desc" },
   { label: "GitHub", url: "https://github.com/" },
   { label: "Vercel", url: "https://vercel.com/" },
+  { label: "Supabase", url: "https://supabase.com/dashboard/org/nghqiefudotqfrrvkbzx" },
   { label: "Stoat", url: "https://stt.gg/JRT7nwgn" },
 ];
 
