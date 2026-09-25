@@ -15,6 +15,7 @@ const links = [
   { label: "Minimax", url: "https://www.minimax.io/audio" },
   { label: "ElevenLabs", url: "https://elevenlabs.io/app/home" },
   { label: "Google Flow", url: "https://labs.google/fx/pt/tools/flow" },
+  { label: "Lovable", url: "https://lovable.dev/dashboard" },
   { label: "Google AI Studio", url: "https://aistudio.google.com/" },
   { label: "Removedor de objetos", url: "https://cleanup.pictures/" },
   { label: "Removedor de Marca D'água", url: "https://ezremove.ai/video-watermark-remover/" },
